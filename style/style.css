@@ -1,0 +1,133 @@
+
+.work-sans {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+/* Banner Section */
+.banner-contant{
+    background: linear-gradient(
+        0deg,
+        rgb(16,16,16)-19.5%,
+        rgba(16 , 16, 16,0)100%
+    ), url("../assets/hero-bg.png");
+    height: 735px;
+    width: 1536px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 210px 358px ;
+}
+.banner-sub-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1) ;
+    text-align: center;
+}
+.banner-title{
+    font-size: 51px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.banner-all-title{
+    height: 312px;
+    width: 818px;
+    margin: 0;
+    padding: 0;
+}
+ /* shared btn style */
+ .btn{
+    background-color: rgba(82, 195, 3, 1);
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    width: 225px;
+    height: 52px;
+    padding: 17px 25px ;
+    border: none;
+    border-radius: 8px;
+ }
+ .primary-btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 25px;
+ }
+ /* Card box style  */
+ .main-contaner{
+    margin-top: 204px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+ }
+ .card-box{
+    margin-top: 255px;
+    background-color: rgba(255, 255, 255, 1);
+    height: 696px;
+    width: 1056px;
+ }
+ .cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+ }
+ .card-sub-title{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+ }
+ .card-title{
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+ }
+.card-food{
+    width: 339px;
+    height: 226px;
+}
+.food-name{
+    background-color: rgba(82, 195, 3, 0.15);
+    color: rgba(16, 16, 16, 1);
+    border-radius: 8px;
+    padding: 11px 25px ;
+    font-weight: 600;
+    font-size: 19px;
+    width:150px;
+    text-align: center;
+    margin: 26px auto;
+
+}
+.discount-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+}
+.poduct-discription{
+    font-size: 15px ;
+    font-weight: 500;
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+}
