@@ -233,4 +233,9 @@ footer{
     display: flex;
     gap: 26px;
     justify-content: center;
+    
+}
+.footer-social img{
+    height: 32px;
+    width: 32px;
 }
