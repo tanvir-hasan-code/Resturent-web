@@ -17,8 +17,8 @@ body{
         rgb(16,16,16)-19.5%,
         rgba(16 , 16, 16,0)100%
     ), url("../assets/hero-bg.png");
-    height: 735px;
-    width: 1536px;
+    height: 100%;
+    width: 100%px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,4 +130,107 @@ body{
     font-weight: 500;
     color: rgba(16, 16, 16, 1);
     text-align: center;
+}
+/* about section style */
+.about-sec{
+    margin-top: 255px;
+    display: flex;
+    background-color: white;
+}
+.about-sec img{
+    width: 100%;
+    height: 100%;
+}
+.about-sec div{
+    width: 50%;
+}
+.social{
+    display: flex;
+    margin: 32px;
+    gap: 32px;
+    justify-content: center;
+}
+.image-title-flow h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: image-title-flow;
+    text-align: center;
+}
+.about-dec{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(16, 16, 16, 0.5);
+    text-align: center;
+}
+.fllow{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(16, 16, 16, 0.6);
+    text-align: center;
+} 
+/* cards disign */
+.single-card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 255px auto;
+}
+.single-food-name{
+    background-color: rgba(82, 195, 3, 0.15);
+    color: rgba(16, 16, 16, 1);
+    border-radius: 8px;
+    padding: 11px 25px ;
+    font-weight: 600;
+    font-size: 19px;
+    width:150px;
+    text-align: center;
+    margin: 26px auto;
+}
+.single-cards{
+    padding: 216px 772px 124px 724px;
+}
+/* footer disign */
+footer{
+    background-image: url("../assets/social-bg.png");
+    background-color: rgba(255 , 255, 255,.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    height: 500px;
+    width: auto;
+    margin-top: 255px;
+    display: flex;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #101010;
+    text-align: center;
+}
+.footer{
+    margin: 109px 436px;
+}
+.footer-title{
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(16, 16, 16, 1);
+    text-align: center;
+}
+.footer-dec{
+    color: rgba(16, 16, 16, 1);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.footer-p{
+    color: rgba(16, 16, 16, 1);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-social{
+    padding-top: 26px;
+    display: flex;
+    gap: 26px;
+    justify-content: center;
 }
